@@ -13,7 +13,7 @@ export async function getCabin(id) {
     .single();
 
   if (error) {
-    console.error(error);
+    // console.error(error);
     notFound();
   }
 
